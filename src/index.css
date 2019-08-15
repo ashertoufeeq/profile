@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(https://fonts.googleapis.com/css?family=Ruthie:300,400,500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-family: 'Ubuntu', serif;
+}
+.bg-img {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.3) 0%, rgb(188, 188, 188) 100%), url(//img1.wsimg.com/isteam/stock/5219/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1360,h:760,cg:true,m/cr=w:1360,h:760,a:cc/fx-gs);
+    opacity: 1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+
+.ruthie {
+    font-family: Ruthie, serif;
+    font-weight: normal;
+
+}
+
+.cfg{
+    color:rgba(116, 117, 121, 1);
+}
+.bg {
+    background-color: rgba(238, 238, 238, 1);
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #ffffff;
+
+}
+.arrow-bottom {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 20px solid rgba(238, 238, 238, 1);
+
 }

@@ -1,33 +1,324 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Ruthie:300,400,500&display=swap);
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.justify-center {
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.justify-around {
+    justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.m-2 {
+    margin: 10px;
+}
+
+.m-3 {
+    margin: 15px;
+}
+
+.m-4 {
+    margin: 20px;
+}
+
+.m-5 {
+    margin: 25px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 5px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+.p-4 {
+    padding: 20px;
+}
+
+.p-5 {
+    padding: 25px;
+}
+.floating-text {
+  font: bold 31px 'Ubuntu', serif;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    background-color: #ffffff;
+    color: #000;
+    font-family: "Ruthie", sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+.title-wrapper * {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    letter-spacing: .1em;
+    line-height: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .row-md {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column-md {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .justify-md-center {
+        justify-content: center;
+    }
+
+    .justify-md-around {
+        justify-content: space-around;
+    }
+
+    .justify-md-between {
+        justify-content: space-between;
+    }
+
+    .align-md-center {
+        align-items: center;
+    }
+
+    .align-md-start {
+        align-items: flex-start;
+    }
+
+    .align-md-end {
+        align-items: flex-end;
+    }
+
+    .title-wrapper * {
+        color: #ffffff;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        letter-spacing: .1em;
+        line-height: 1em;
+    }
+
+    .floating-text {
+        font: bold 31px 'Ubuntu', serif;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .title-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .row-lg {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column-lg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .justify-lg-center {
+        justify-content: center;
+    }
+
+    .justify-lg-around {
+        justify-content: space-around;
+    }
+
+    .justify-lg-between {
+        justify-content: space-between;
+    }
+
+    .align-lg-center {
+        align-items: center;
+    }
+
+    .align-lg-start {
+        align-items: flex-start;
+    }
+
+    .align-lg-end {
+        align-items: flex-end;
+    }
+
+    .title-wrapper * {
+        color: #ffffff;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        letter-spacing: .1em;
+        line-height: 1em;
+    }
+
+    .title-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+  .floating-text {
+    font: bold 62px 'Ubuntu', serif;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+  .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
 }

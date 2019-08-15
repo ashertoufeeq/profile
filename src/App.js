@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+// import './materialize.scss'
+import Main from "./main"
 function App() {
   return (
-    <div className="App" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-      <h1>Coming Soon</h1>
+    <div className="App">
+      <Main/>
     </div>
   );
 }
