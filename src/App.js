@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-// import './materialize.scss'
 import Main from "./main"
+import AppRouter from "./navigations/appRouter";
 function App() {
   return (
     <div className="App">
-      <Main/>
+      <AppRouter/>
     </div>
   );
 }
