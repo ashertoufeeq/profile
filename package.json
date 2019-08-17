@@ -12,7 +12,7 @@
     "react-scripts": "3.1.0",
     "react-web-vector-icons": "^1.0.2"
   },
-  "homepage": "https://asher-toufeeq.me",
+  "homepage": "https://profile.asher-toufeeq.me",
   "scripts": {
     "predeploy": "yarn run build && cp build/index.html build/404.html && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",

@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import profile from "./assests/profile.jpg"
 import {Ionicons} from 'react-web-vector-icons';
-import {Link} from "react-router-dom"
 
 const aboutMe = [{
     title: "Introduction",
-    description: "Asher Toufeeq an Undergraduate student persuing B.tech(Electrical) from Jamia Millia Islamia,New Delhi(110025)."
+    description: "Asher Toufeeq an Undergraduate student pursuing B.tech(Electrical) from Jamia Millia Islamia,New Delhi(110025)."
 }, {
     title: "My Skillset",
     description: "I possess a sharp eye for detail, which I use to find even the smallest errors in text. I work well under pressure and can produce high-quality work in short periods of time. I have strong interpersonal skills and work with a wide variety of people."
