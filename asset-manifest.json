@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cce8147.chunk.css",
-    "main.js": "/static/js/main.066fe87e.chunk.js",
-    "main.js.map": "/static/js/main.066fe87e.chunk.js.map",
+    "main.css": "/static/css/main.e4013714.chunk.css",
+    "main.js": "/static/js/main.4e37b209.chunk.js",
+    "main.js.map": "/static/js/main.4e37b209.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.c0fbf7f9.js",
     "runtime~main.js.map": "/static/js/runtime~main.c0fbf7f9.js.map",
-    "static/js/2.638c25c2.chunk.js": "/static/js/2.638c25c2.chunk.js",
-    "static/js/2.638c25c2.chunk.js.map": "/static/js/2.638c25c2.chunk.js.map",
+    "static/js/2.c0f73ba7.chunk.js": "/static/js/2.c0f73ba7.chunk.js",
+    "static/js/2.c0f73ba7.chunk.js.map": "/static/js/2.c0f73ba7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.90ea9f18a9b12e110ee73de1e19d0744.js": "/precache-manifest.90ea9f18a9b12e110ee73de1e19d0744.js",
+    "precache-manifest.5824fa4d4ef7426abb2f1ede11adb119.js": "/precache-manifest.5824fa4d4ef7426abb2f1ede11adb119.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/main.e4013714.chunk.css.map": "/static/css/main.e4013714.chunk.css.map",
+    "static/media/AntDesign.ttf": "/static/media/AntDesign.3a2ba315.ttf",
+    "static/media/Entypo.ttf": "/static/media/Entypo.744ce600.ttf",
+    "static/media/EvilIcons.ttf": "/static/media/EvilIcons.140c53a7.ttf",
+    "static/media/Feather.ttf": "/static/media/Feather.6beba7e6.ttf",
+    "static/media/FontAwesome.ttf": "/static/media/FontAwesome.b06871f2.ttf",
+    "static/media/Foundation.ttf": "/static/media/Foundation.e20945d7.ttf",
+    "static/media/Ionicons.ttf": "/static/media/Ionicons.b2e0fc82.ttf",
+    "static/media/MaterialCommunityIcons.ttf": "/static/media/MaterialCommunityIcons.d15c1216.ttf",
+    "static/media/MaterialIcons.ttf": "/static/media/MaterialIcons.a37b0c01.ttf",
+    "static/media/Octicons.ttf": "/static/media/Octicons.73b8cff0.ttf",
+    "static/media/SimpleLineIcons.ttf": "/static/media/SimpleLineIcons.d2285965.ttf",
+    "static/media/Zocial.ttf": "/static/media/Zocial.5cdf883b.ttf",
+    "static/media/profile.jpg": "/static/media/profile.ad88f525.jpg"
   }
 }
