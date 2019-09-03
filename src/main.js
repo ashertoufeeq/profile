@@ -34,6 +34,26 @@ const social = [
 ];
 
 class Main extends Component {
+    constructor(props) {
+        super(props);
+        this.state={
+            drawerWidth:false
+        };
+        this.openNav = this.openNav.bind(this);
+        this.closeNav = this.closeNav.bind(this);
+        this.toggleDrawer = this.toggleDrawer.bind(this);
+    }
+
+     openNav(){
+        this.setState({drawerWidth:true})
+    }
+    closeNav() {
+        this.setState({drawerWidth:false})
+    }
+    toggleDrawer(){
+        this.setState({drawerWidth:!this.state.drawerWidth})
+    }
+
     render() {
 
         return (
@@ -51,6 +71,14 @@ class Main extends Component {
                 </div>
                 <div className={"bg-img column align-center justify-center"}>
                     <div className="arrow" style={{marginBottom:"100px"}}/>
+                    <div id="mySidenav" className="sidenav" style={{width:this.state.drawerWidth?"250px":0}}>
+                        <a className="closebtn" onClick={this.closeNav}>&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <span onClick={this.toggleDrawer}>open</span>
                     <div className={"column align-lg-start title-wrapper m-4"}>
                         <h2>Get to know me!</h2>
                         <div style={{marginTop: "10px"}}>
@@ -58,7 +86,7 @@ class Main extends Component {
                             <h1 className={"floating-text "}> Developer</h1>
                         </div>
                     </div>
-                    <img className={"m-4 col-6 col-s-10 col-md-6" }  alt={"profile"} src={"https://github.com/ashertoufeeq/Resume/raw/master/profile.jpg"}/>
+                    <img className={"m-4 col-6 col-s-10 col-md-6" }  alt={"profile"} src={profile}/>
                 </div>
                 <div className={"column justify-center align-center"} >
                     <h1 className={"cfg p-4 m-4"} style={{fontWeight: "bold"}}> About Me</h1>
