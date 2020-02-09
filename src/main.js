@@ -90,7 +90,7 @@ class Main extends Component {
             className={' profile-text'}
             style={{ margin: 0, fontWeight: 'bold' }}
           >
-            Asher Toufeeq Business Profile
+            Asher Toufeeq Personal Profile
           </h1>
           <div
             className={' column align-lg-start align-center'}
@@ -221,7 +221,7 @@ class Main extends Component {
               marginBottom: '5px'
             }}
           >
-            COPYRIGHT © 2019 ASHER TOUFEEQ BUSINESS PROFILE - ALL RIGHTS
+            COPYRIGHT © 2019 ASHER TOUFEEQ PERSONAL PROFILE - ALL RIGHTS
             RESERVED.
           </h6>
           <div
