@@ -19,7 +19,7 @@ const aboutMe = [
     description:
       'I  am looking for an opportunity to work with a team that runs on clear communication.I want to align myself with a company I believe in and where I can create positive change. I am always looking to learn more and am open to taking on challenging projects.'
   }
-]
+];
 const social = [
   {
     name: 'logo-facebook',
@@ -49,8 +49,8 @@ class Main extends Component {
     this.state = {
       drawerWidth: false
     }
-    this.openNav = this.openNav.bind(this)
-    this.closeNav = this.closeNav.bind(this)
+    this.openNav = this.openNav.bind(this);
+    this.closeNav = this.closeNav.bind(this);
     this.toggleDrawer = this.toggleDrawer.bind(this)
   }
 
