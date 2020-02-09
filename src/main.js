@@ -76,7 +76,7 @@ class Main extends Component {
           padding: 0
         }}
       >
-        <SEO title='Asher Toufeeq' description='Main page' />
+        <SEO title='Asher Toufeeq' description='A FrontEnd Developer.An Undergraduate student pursing B.tech(Electrical) from Jamia Millia Islamia,New Delhi(110025).' />
         <div className='header row-lg align-center justify-between'>
           <span onClick={this.toggleDrawer}>
             <Ionicons
