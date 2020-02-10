@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import SEO from './seo'
 import profile from './assests/profile.jpg'
 import { Ionicons } from 'react-web-vector-icons'
+import {Helmet} from "react-helmet/es/Helmet";
 
 const aboutMe = [
   {
