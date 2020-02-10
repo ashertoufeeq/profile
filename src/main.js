@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import SEO from './seo'
 import profile from './assests/profile.jpg'
 import { Ionicons } from 'react-web-vector-icons'
-import {Helmet} from "react-helmet/es/Helmet";
 
 const aboutMe = [
   {
@@ -77,7 +76,7 @@ class Main extends Component {
           padding: 0
         }}
       >
-        <SEO title='Asher Toufeeq' description='A FrontEnd Developer.An Undergraduate student pursing B.tech(Electrical) from Jamia Millia Islamia,New Delhi(110025).' />
+        {/*<SEO title='Asher Toufeeq' description='A FrontEnd Developer.An Undergraduate student pursing B.tech(Electrical) from Jamia Millia Islamia,New Delhi(110025).' />*/}
         <div className='header row-lg align-center justify-between'>
           <span onClick={this.toggleDrawer}>
             <Ionicons
