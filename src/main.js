@@ -41,14 +41,14 @@ const social = [
     name: 'logo-linkedin',
     link: 'https://www.linkedin.com/in/ashertoufeeq'
   }
-]
+];
 
 class Main extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       drawerWidth: false
-    }
+    };
     this.openNav = this.openNav.bind(this);
     this.closeNav = this.closeNav.bind(this);
     this.toggleDrawer = this.toggleDrawer.bind(this)
@@ -76,7 +76,6 @@ class Main extends Component {
           padding: 0
         }}
       >
-        {/*<SEO title='Asher Toufeeq' description='A FrontEnd Developer.An Undergraduate student pursing B.tech(Electrical) from Jamia Millia Islamia,New Delhi(110025).' />*/}
         <div className='header row-lg align-center justify-between'>
           <span onClick={this.toggleDrawer}>
             <Ionicons

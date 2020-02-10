@@ -6,7 +6,7 @@ import SEO from "./seo";
 function App() {
   return (
     <div className="App">
-        {/*<SEO title='Asher Toufeeq' description='A FrontEnd Developer.An Undergraduate student pursing B.tech(Electrical) from Jamia Millia Islamia,New Delhi(110025).' />*/}
+        <SEO/>
         <AppRouter/>
     </div>
   );
