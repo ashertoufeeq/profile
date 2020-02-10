@@ -6,7 +6,6 @@ import SEO from "./seo";
 function App() {
   return (
     <div className="App">
-        <SEO/>
         <AppRouter/>
     </div>
   );

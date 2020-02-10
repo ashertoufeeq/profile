@@ -76,6 +76,7 @@ class Main extends Component {
           padding: 0
         }}
       >
+        <SEO/>
         <div className='header row-lg align-center justify-between'>
           <span onClick={this.toggleDrawer}>
             <Ionicons
