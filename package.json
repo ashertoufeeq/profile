@@ -15,7 +15,7 @@
   },
   "homepage": "https://ashertoufeeq.github.io/profile/",
   "scripts": {
-    "predeploy": "yarn run build && cp build/index.html build/404.html && cp CNAME build/CNAME",
+    "predeploy": "yarn run build && cp build/index.html build/404.html",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
