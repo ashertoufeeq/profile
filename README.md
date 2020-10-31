@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is resume site of asher toufeeq created using React js without any external resources
 
 ## Available Scripts
 
