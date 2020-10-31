@@ -4,7 +4,9 @@
     flex-direction: row;
 }
 
-.column {
+/* this is for column */
+
+.column { 
     display: flex;
     flex-direction: column;
 }
